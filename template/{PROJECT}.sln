@@ -1,0 +1,33 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{21A05630-FBC1-490C-82D8-D14CCA3DF53A}"
+    ProjectSection(SolutionItems) = preProject
+        paket.dependencies = paket.dependencies
+    EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "{PROJECT}", "lib\{PROJECT}.fsproj", "{{PROJECTGUID}}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "tests\Tests.fsproj", "{{TESTPROJECTGUID}}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {{PROJECTGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {{PROJECTGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {{PROJECTGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {{PROJECTGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+        {{TESTPROJECTGUID}}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {{TESTPROJECTGUID}}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {{TESTPROJECTGUID}}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {{TESTPROJECTGUID}}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+EndGlobal
