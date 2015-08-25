@@ -1,7 +1,7 @@
 sudo: false
 language: csharp 
 
-solution: ./{PROJECT}.sln
+solution: ./{%= name %}.sln
 install:
     - sh build.sh install 
 

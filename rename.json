@@ -1,0 +1,4 @@
+{
+  "lib/name.fsproj": "lib/{%= name %}.fsproj",
+  "name.sln": "{%= name %}.sln"
+}
